@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li, ol{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+img{
+    vertical-align: baseline;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+input{
+    border: 1px solid #665d5d;
+    color: #e65d5d;
+}
+
+input::-webkit-input-placeholder{
+    color: #e65d5d;
+}
+
+body{
+    font-family: "NanumGothic", "맑은 고딕", Arial, Helvetica, sans-serif;
+    background: url("../images/s_images/body_bg.png");
+}
+
+@font-face {
+    font-family: "NanumGothic";
+    src: url("../webfont/NanumGothic.woff");
+}
+
+@font-face {
+    font-family: "NanumGothic";
+    src: url("../webfont/NanumGothic.eot");
+}
+
+@font-face {
+    font-family: "어비1";
+    src: url("../webfont/UhBee\ matsuko.ttf");
+}
+
+@font-face {
+    font-family: "어비1 Bold";
+    src: url("../webfont/UhBee\ matsuko\ Bold.ttf");
+}
